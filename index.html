@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGadget Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FrankGadget Shop</div>
+        <p>Your destination for premium tech products</p>
+    </header>
+    
+    <div class="control-panel">
+        <button class="theme-toggle">Toggle Dark Mode</button>
+        <div class="cart-container">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
+    
+    <main>
+        <div class="products">
+            <!-- Products will be injected here by JavaScript -->
+        </div>
+    </main>
+    
+    <div class="cart-modal">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart">✕</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be injected here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">Total: $0.00</div>
+            <button class="clear-cart-btn">Clear Cart</button>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+    
+    <div class="overlay"></div>
+    <div class="toast">Item added to cart!</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
